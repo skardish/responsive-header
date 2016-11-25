@@ -24,6 +24,8 @@ body {
 header {
   background-color: #18294f;
   color: #fff;
+  padding-bottom: 5px;
+  overflow: hidden;
 }
 
 header h1 {
@@ -34,6 +36,7 @@ header h1 {
 nav a {
   color: #6c8fe0;
   text-decoration: none;
+  padding: .5em .75em;
 }
 
 nav a:hover {
