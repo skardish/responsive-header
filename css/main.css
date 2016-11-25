@@ -10,6 +10,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: ubuntu, sans-serif;
+
 }
 
 *, *::before, *::after {
@@ -21,9 +23,14 @@ body {
   background-color: #18294f;
 }
 
+header {
+
+}
+
 h1 {
   text-align: center;
   color: #fff;
+  font-size: 2rem;
 }
 
 nav a {
@@ -31,6 +38,6 @@ nav a {
   text-decoration: none;
 }
 
-nav li {
-
+nav ul {
+  font-size: 1.125rem;
 }
