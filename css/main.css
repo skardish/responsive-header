@@ -84,10 +84,6 @@ nav ul {
     line-height: 1.4;
   }
 
-  nav li {
-    width: 25%;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -95,6 +91,11 @@ nav ul {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  h1 {
+    float: left;
+    width: 25%;
   }
 
 }
