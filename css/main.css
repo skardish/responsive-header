@@ -20,16 +20,15 @@ html {
 
 body {
   margin: 0;
-  background-color: #18294f;
 }
 
 header {
-
+  background-color: #18294f;
+  color: #fff;
 }
 
 h1 {
   text-align: center;
-  color: #fff;
   font-size: 2rem;
 }
 
