@@ -31,12 +31,16 @@ header {
 header h1 {
   text-align: center;
   font-size: 2rem;
+  margin: .9rem;
 }
 
 nav a {
   color: #6c8fe0;
   text-decoration: none;
   padding: .5em .75em;
+  width: 100%;
+  white-space: nowrap;
+  display: block;
 }
 
 nav a:hover {
@@ -47,6 +51,7 @@ nav a:hover {
 nav ul {
   font-size: 1.125rem;
   list-style-type: none;
+  padding-left: .75rem;
 }
 
 @media only screen and (min-width: 25em) {
